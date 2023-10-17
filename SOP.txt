@@ -24,4 +24,12 @@ npm run dev
 
 https://www.themoviedb.org/
 
+chrome extension - redux DevTools
+
+1.
 Installing all dependencies. Creating api on tmdb. Saving api token in .env. Creating src\utils\api.js for api fetching. Testing the API.
+
+2.
+https://redux-toolkit.js.org/tutorials/quick-start
+Setting up Redux tool kit using its offical website: creating src\store\store.js.Creating homeSlice in src\store\homeSlice.js. Testing the homeSlice.
+
