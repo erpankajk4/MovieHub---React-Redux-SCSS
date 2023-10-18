@@ -18,8 +18,8 @@ export const HeroBanner = () => {
   useEffect(() => {
     // const bg = url.backdrop + data?.results?.[4]?.backdrop_path;
     const bg =
-     url.backdrop +
-      data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path;
+      url.backdrop +
+      data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path; // https://image.tmdb.org/t/p/original + /pWte3Bpf8DHJjzjXP0aCtSewE8y.jpg
     setBackground(bg);
   }, [url, data]);
 
@@ -37,6 +37,8 @@ export const HeroBanner = () => {
         </div>
       )}
 
+      <div className="opacity-layer"></div>
+
       <ContentWrapper>
         <div className="heroBannerContent">
           <span className="title">Welcome</span>
@@ -53,7 +55,7 @@ export const HeroBanner = () => {
             <button>Search</button>
           </div>
         </div>
-        </ContentWrapper>
+      </ContentWrapper>
     </div>
   );
 };

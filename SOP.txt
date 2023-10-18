@@ -34,4 +34,4 @@ https://redux-toolkit.js.org/tutorials/quick-start
 Setting up Redux tool kit using its offical website: creating src\store\store.js.Creating homeSlice in src\store\homeSlice.js. Testing the homeSlice.
 
 3.
-Creating components like Header, Footer and pages like 404, Details, Explore, HeroBanner, Home, SearchResult. Creating routing in App.js.Creating useFetch for API Fetching acc to url. Creating HeroBanner Section : Getting popular movie images from api ,Creating lazyLoadImage and contentWrapper. 
+Creating components like Header, Footer and pages like 404, Details, Explore, HeroBanner, Home, SearchResult. Creating routing in App.js.Creating useFetch for API Fetching acc to url. Creating HeroBanner Section : Getting popular movie poster images from api ,Creating lazyLoadImage and contentWrapper. 
