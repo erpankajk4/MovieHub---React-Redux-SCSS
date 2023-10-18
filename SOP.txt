@@ -24,7 +24,7 @@ npm run dev
 
 https://www.themoviedb.org/
 
-chrome extension - redux DevTools
+chrome extension - redux DevTools, react devTool
 
 1.
 Installing all dependencies. Creating api on tmdb. Saving api token in .env. Creating src\utils\api.js for api fetching. Testing the API.
@@ -33,3 +33,5 @@ Installing all dependencies. Creating api on tmdb. Saving api token in .env. Cre
 https://redux-toolkit.js.org/tutorials/quick-start
 Setting up Redux tool kit using its offical website: creating src\store\store.js.Creating homeSlice in src\store\homeSlice.js. Testing the homeSlice.
 
+3.
+Creating components like Header, Footer and pages like 404, Details, Explore, HeroBanner, Home, SearchResult. Creating routing in App.js.Creating useFetch for API Fetching acc to url. Creating HeroBanner Section : Getting popular movie images from api ,Creating lazyLoadImage and contentWrapper. 
