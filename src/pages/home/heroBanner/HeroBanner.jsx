@@ -45,6 +45,7 @@ export const HeroBanner = () => {
           <span className="subTitle">
             Millions of movies, TV shows and people to discover. Explore now.
           </span>
+
           <div className="searchInput">
             <input
               type="text"
@@ -54,6 +55,7 @@ export const HeroBanner = () => {
             />
             <button>Search</button>
           </div>
+          
         </div>
       </ContentWrapper>
     </div>
