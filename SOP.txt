@@ -45,3 +45,10 @@ Creating Header Section :  Creating navbar with hamburger menu in md screen. wri
 
 6. 
 Creating Header Section : Creating Scrolling effect.
+
+7. 
+"Creating Footer and its CSS"  
+
+8.
+npm install dayjs
+"Creating Trending Section : Creating carousel Section, SwitchTabs Component. Writing their CSS with loading skeleton."
