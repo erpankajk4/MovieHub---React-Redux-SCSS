@@ -52,3 +52,7 @@ Creating Header Section : Creating Scrolling effect.
 8.
 npm install dayjs
 "Creating Trending Section : Creating carousel Section, SwitchTabs Component. Writing their CSS with loading skeleton."
+
+9. 
+npm install react-circular-progressbar
+Creating Trending Section : Creating circleRaing Component.
