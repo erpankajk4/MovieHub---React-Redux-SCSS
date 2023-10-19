@@ -26,7 +26,7 @@ const Header = () => {
 
   const controlNavbar = () => {
     // Task : After scroll above than 200, navbar should hide. if scroll up , navbar should show with "show" CSS. Back to "top" CSS if scrollY less less 200.
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
     if (window.scrollY > 200) {
       if (window.scrollY > lastScrollY && !mobileMenu) {
         setShow("hide");

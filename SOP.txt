@@ -42,3 +42,6 @@ Creating mixins.scss for css in different DOM size. writing css for HeroBanner S
 5.
 npm install react-icons
 Creating Header Section :  Creating navbar with hamburger menu in md screen. writing header css. 
+
+6. 
+Creating Header Section : Creating Scrolling effect.
