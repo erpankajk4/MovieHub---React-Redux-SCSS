@@ -55,4 +55,7 @@ npm install dayjs
 
 9. 
 npm install react-circular-progressbar
-Creating Trending Section : Creating circleRaing Component.
+Creating Trending Section : Creating circleRating Component.
+
+10.
+Creating Trending Section : Creating Genres Component.

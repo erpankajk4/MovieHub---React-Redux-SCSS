@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { fetchDataFromApi } from "./utils/api";
-import { getApiConfiguration } from "./store/homeSlice";
+import { getApiConfiguration, getGenres } from "./store/homeSlice";
 
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
@@ -21,6 +21,7 @@ function App() {
 
   useEffect(() => {
     fetchApiConfig();
+    genresCall();
   }, []);
 
   const fetchApiConfig = () => {
@@ -35,9 +36,29 @@ function App() {
       dispatch(getApiConfiguration(url));
     });
   };
+
+  const genresCall = async () => {
+    // Task:  fetches and combines genre lists for both TV and movies, storing them in the allGenres object with id as a key
+    let promises = [];
+    let endPoints = ["tv", "movie"];
+    let allGenres = {};
+
+    endPoints.forEach((url) => {
+      promises.push(fetchDataFromApi(`/genre/${url}/list`));
+    });
+    const data = await Promise.all(promises); // gives both tv and movie genres list at same time in array
+    // console.log(data);
+    data.map(({ genres }) => {
+      // gives both tv and movie genres list in single object with id as key
+      return genres.map((item) => (allGenres[item.id] = item));
+    });
+    // console.log(allGenres);
+    dispatch(getGenres(allGenres));
+  };
+
   return (
     <BrowserRouter>
-    <Header />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/:mediaType/:id" element={<Details />} />
