@@ -59,3 +59,9 @@ Creating Trending Section : Creating circleRating Component.
 
 10.
 Creating Trending Section : Creating Genres Component.
+
+11.
+Creating Trending Section : Creating scrolling functionality in Carousel Section. Make Navigate items in Carousel.
+
+12.
+
