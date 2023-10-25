@@ -75,3 +75,6 @@ Creating Details Banner Section: Creating VideoPopup Component and and completin
 
 15.
 Detail Page : Creating Cast Section
+
+16.
+Detail Page : Creating Official Video Section.
