@@ -12,7 +12,7 @@ import Img from "../lazyLoadImage/Img";
 import PosterFallback from "../../assets/no-poster.png";
 
 import "./style.scss";
-import CircleRating from "../circleRatimg/CircleRaing";
+import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
 
 const Carousel = ({ data, loading, endpoint }) => {
