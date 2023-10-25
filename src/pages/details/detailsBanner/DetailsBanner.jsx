@@ -12,6 +12,7 @@ import CircleRating from "../../../components/circleRating/CircleRating";
 import Img from "../../../components/lazyLoadImage/Img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "./Playbtn";
+import VideoPopup from "../../../components/videoPopup/VideoPopup";
 
 const DetailsBanner = ({ video, crew }) => {
   const { mediaType, id } = useParams();
@@ -20,6 +21,9 @@ const DetailsBanner = ({ video, crew }) => {
   const { url } = useSelector((state) => state.home);
 
   const _genres = data?.genres?.map((genre) => genre.id);
+
+  const [show, setShow] = useState(false);
+  const [videoId, setVideoId] = useState(null);
 
   const director = crew?.filter((d) => d.job === "Director");
   const writer = crew?.filter(
@@ -70,9 +74,12 @@ const DetailsBanner = ({ video, crew }) => {
                       {/* Circle Rating Div  */}
                       <CircleRating rating={data.vote_average.toFixed(1)} />
                       {/* Play Button Div */}
-                      <div className="playbtn" onClick={() => {}}>
+                      <div className="playbtn" onClick={() => {
+                        setShow(true);
+                        setVideoId(video.key)
+                      }}>
                         <PlayIcon />
-                        <span className="text">Watch Tralier</span>
+                        <span className="text">Watch Trailer</span>
                       </div>
                     </div>
                     {/* Overview Section  */}
@@ -149,6 +156,13 @@ const DetailsBanner = ({ video, crew }) => {
                     )}
                   </div>
                 </div>
+                {/* Video Pop-up */}
+                <VideoPopup
+                  show={show}
+                  setShow={setShow}
+                  videoId={videoId}
+                  setVideoId={setVideoId}
+                />
               </ContentWrapper>
             </>
           )}

@@ -67,4 +67,8 @@ Creating Trending Section : Creating scrolling functionality in Carousel Section
 Completing Home Page: Creating popular and trending section.
 
 13.
-Fixed circleRating file and folder name. Creating Details Page: Creating Details Banner Section and importing in Details.jsx. Creating Details Banner Section : Overview, status, creator, director, status, ratings, Release Date, Runtime, Playbtn.jsx for play button.
+Fixed circleRating file and folder name. Creating Details Banner Section and importing in Details.jsx. Creating Details Banner Section : Overview, status, creator, director, status, ratings, Release Date, Runtime, Playbtn.jsx for play button.
+
+14.
+npm install react-player
+Creating Details Banner Section: Creating VideoPopup Component.
