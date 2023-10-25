@@ -71,4 +71,7 @@ Fixed circleRating file and folder name. Creating Details Banner Section and imp
 
 14.
 npm install react-player
-Creating Details Banner Section: Creating VideoPopup Component.
+Creating Details Banner Section: Creating VideoPopup Component and and completing the Watch trailer part.
+
+15.
+Detail Page : Creating Cast Section
