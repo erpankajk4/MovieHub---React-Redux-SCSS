@@ -78,3 +78,9 @@ Detail Page : Creating Cast Section
 
 16.
 Detail Page : Creating Official Video Section.
+
+17.
+Detail Page : Creating Recommendation and Similar Section.
+
+18.
+Fixing Recommendations not found issue. Creating Search Result Page
