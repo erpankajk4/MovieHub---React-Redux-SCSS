@@ -83,4 +83,8 @@ Detail Page : Creating Official Video Section.
 Detail Page : Creating Recommendation and Similar Section.
 
 18.
-Fixing Recommendations not found issue. Creating Search Result Page
+Fixing Recommendations not found issue.
+
+19.
+npm install react-infinite-scroll-component
+Creating Search Result Page : Implemented data fetching for search results, Added loading indicators and "No Results" message
