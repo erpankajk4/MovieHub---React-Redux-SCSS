@@ -15,6 +15,7 @@ https://moviehub-redux.netlify.app/ - Click the Link to Preview <br/>
 3. [Technologies Used](#technologies-used)
 4. [Folder Structure](#Folder-structure)
 5. [License](#license)
+6. [Demo](#demo)
 
 ## Getting Started
 ### Prerequisites
@@ -180,6 +181,7 @@ Your web app should now be running locally. Open your web browser and access it 
  ## License
 This project is licensed under the [MIT License](LICENSE).
 
+## Demo
 ## Home Page
 ![home1](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/a79f09b3-28b7-439a-8785-e5529d8bd504)
 ![home2](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/19ed88ef-2b70-4b73-bb1b-093d96355d62)
