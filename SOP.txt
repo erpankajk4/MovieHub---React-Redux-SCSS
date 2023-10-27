@@ -88,3 +88,10 @@ Fixing Recommendations not found issue.
 19.
 npm install react-infinite-scroll-component
 Creating Search Result Page : Implemented data fetching for search results, Added loading indicators and "No Results" message
+
+20.
+Completing search button code in HeroBanner Section.
+
+21.
+npm i react-select
+Creating Explore page : Fetching data based on media type, genre, and sorting, Allowing genre and sorting filtering. Implementing infinite scrolling for smooth navigation. 
