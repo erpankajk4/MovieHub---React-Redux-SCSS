@@ -1,5 +1,6 @@
 # MovieHub
 MovieHub is a feature-rich web application that allows you to explore a vast collection of movies and TV shows. It is built using React and leverages the power of the TMDB (The Movie Database) API to provide an extensive database of entertainment content. Whether you're a cinephile looking for your next favorite film or just browsing for an enjoyable evening of TV, MovieHub has you covered.
+![home1](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/9430a632-b112-4a2e-9867-7882b239e9e5)
 
 ## Hosted Link on Netlify
 https://moviehub-redux.netlify.app/ - Click the Link to Preview <br/>
@@ -10,12 +11,10 @@ https://moviehub-redux.netlify.app/ - Click the Link to Preview <br/>
 1. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-2. [Usage](#usage)
-   - [Example](#example)
-3. [Features](#features)
-4. [Technologies Used](#technologies-used)
-5. [Contributing](#contributing)
-6. [License](#license)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Folder Structure](#Folder-structure)
+5. [License](#license)
 
 ## Getting Started
 ### Prerequisites
@@ -180,3 +179,19 @@ Your web app should now be running locally. Open your web browser and access it 
 
  ## License
 This project is licensed under the [MIT License](LICENSE).
+
+## Home Page
+![home1](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/a79f09b3-28b7-439a-8785-e5529d8bd504)
+![home2](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/19ed88ef-2b70-4b73-bb1b-093d96355d62)
+## Search Page
+![search1](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/afd8d678-64cf-4fa5-b220-121388e86308)
+## Skeleton Loading
+![SkeletonLoading](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/c9ce039f-f5b4-4660-abb5-41691f5efbf2)
+## Detail Page
+![detail1](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/9e602282-e063-401b-b891-0bcd09146118)
+![detail2](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/a24d2e8e-9791-441f-8043-01e214b907de)
+![detail3](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/585929ea-a5ef-4de1-a6a5-4d20c2edbf1f)
+## Explore Page
+![explore1](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/3b12b908-e45c-4171-9ebf-08b6ca45b870)
+## 404 Page
+![404](https://github.com/erpankajk4/MovieHub---React-Redux-SCSS/assets/118353291/cda47709-8412-483f-98a3-b64ff7886ade)
