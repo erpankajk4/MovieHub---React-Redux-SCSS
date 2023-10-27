@@ -95,3 +95,6 @@ Completing search button code in HeroBanner Section.
 21.
 npm i react-select
 Creating Explore page : Fetching data based on media type, genre, and sorting, Allowing genre and sorting filtering. Implementing infinite scrolling for smooth navigation. 
+
+22.
+Creating 404 Page
